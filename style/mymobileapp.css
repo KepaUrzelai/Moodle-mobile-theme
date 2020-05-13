@@ -34,6 +34,7 @@ ion-side-menu li.item {
 }
 
 /* 3.5 styles */
+
 /* barra superior */
 .toolbar-background-md {
     /*background: url(https://mudle.mondragon.edu/img/mobile-logo-new.svg);
@@ -41,4 +42,39 @@ ion-side-menu li.item {
     background-repeat: no-repeat;
     background-position: 40px 0px;*/
     background-color: #004851;
+}
+/* Letras barra superior */
+.toolbar-title {
+    color: #A5DDE5;
+    /*padding: 0 80px;*/
+}
+/* Botones barra superior (atras, lupa...) */
+.bar-button-clear-md-default, .bar-button-default-md, .bar-button-md-default {
+    color: #A5DDE5;
+}
+
+/* barra inferior */
+.tabs-md .tabbar {
+    background-color: #004851;
+}
+
+/* iconos no seleciconados barra inferior */
+.tabs-md .tabbar .tab-button-icon  {
+    color: #A5DDE5;
+}
+
+/* iconos seleccionados barra inferior */
+.tabs-md .tabbar .tab-button[aria-selected=true] .tab-button-icon  {
+    color: #00A3AD;
+}
+
+/* avisos barra inferior */
+.tabs-md .tabbar .badge-md {
+    background-color: #FFFFFF;
+    color: #004851;
+}
+
+/* elementos generales (listado cursos, actividades...) */
+.item-md {
+    color: #004851;
 }
