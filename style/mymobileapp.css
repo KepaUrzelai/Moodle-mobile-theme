@@ -32,3 +32,12 @@ ion-side-menu li.item {
 .ion-log-out {
     color: red;
 }
+
+/* barra superior */
+.toolbar-background-md {
+    /*background: url(https://mudle.mondragon.edu/img/mobile-logo-new.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 40px 0px;*/
+    background-color: #004851;
+}
