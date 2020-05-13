@@ -1,1 +1,34 @@
-h1
+.bar-side-menu {
+    background-color: #007480;
+}
+
+.bar-content {
+    background-color: white;
+}
+
+.ion-navicon::before {
+    color: #007480;
+}
+
+.bar-header .title {
+    text-indent: -9999999px;
+    background: url(https://mudle.mondragon.edu/img/mobile-logo.svg);
+    background-attachment: absolute;
+}
+
+.ion-ionic:before {
+    content: "\f3ea";
+}
+
+ion-side-menu .item{
+    background-color: #007480;
+    color: white;
+}
+
+ion-side-menu li.item {
+    background-color: #FFFFFF
+}
+
+.ion-log-out {
+    color: red;
+}
