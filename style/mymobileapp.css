@@ -1,19 +1,19 @@
 .bar-side-menu {
-    background-color: #007480;
+    --ion-background-color: #007480;
 }
 
 .bar-content {
-    background-color: white;
+    --ion-background-color: #FFFFFF;
 }
 
 .ion-navicon::before {
-    color: #007480;
+    --ion-color-primary: #007480;
 }
 
 .bar-header .title {
     text-indent: -9999999px;
-    background: url(https://mudle.mondragon.edu/img/mobile-logo.svg);
-    background-attachment: absolute;
+    --background: url(https://mudle.mondragon.edu/img/mobile-logo.svg);
+    background-attachment: local;
 }
 
 .ion-ionic:before {
@@ -21,14 +21,14 @@
 }
 
 ion-side-menu .item{
-    background-color: #007480;
-    color: white;
+    --ion-background-color: #007480;
+    --ion-color-primary: #FFFFFF;
 }
 
 ion-side-menu li.item {
-    background-color: #FFFFFF
+    --ion-background-color: #FFFFFF;
 }
 
 .ion-log-out {
-    color: red;
+    --ion-color-primary: #FF0000;
 }
